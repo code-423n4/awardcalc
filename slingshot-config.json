@@ -1,0 +1,8 @@
+{
+  "contestId": 1,
+  "sponsorName": "slingshot",
+  "mainPool": 20000,
+  "gasPool": 2000,
+  "awardCoin": "USDC",
+  "awardCoinInUSD": 1
+}
