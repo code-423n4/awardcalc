@@ -139,6 +139,7 @@ const compileAwards = () => {
       if (slice.finding.charAt(0) === "G") {
         award = (slice.slice / totals.gasPieTotal) * gasPool;
       }
+      awardUSD = Number((award * awardCoinInUSD).toFixed(2));
       const handleAward = {
         contest: contestId,
         handle,
@@ -148,6 +149,8 @@ const compileAwards = () => {
         split: slice.split,
         slice: slice.slice,
         award,
+        awardCoin,
+        awardUSD,
       };
       allHandleAwards.push(handleAward);
     }
@@ -246,6 +249,9 @@ const reconcileAwards = () => {
 
 const main = async () => {
   const awardData = JSON.stringify(compileAwards(), null, 2);
+  console.log("-----------------------------------------");
+  console.log(sponsorName, "contest awards");
+  console.log("-----------------------------------------");
   getAwardTotals();
   reconcileAwards();
   await fs.writeFile(`${sponsorName}-results.json`, awardData);
