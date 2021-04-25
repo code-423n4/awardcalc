@@ -20,7 +20,14 @@ const {
 
 const data = require(`./${sponsorName}-judged.json`);
 
-const riskSet = ["1", "2", "3", "g"];
+const riskSet = ["3", "2", "1", "0", "g"];
+const labels = {
+  3: "High Risk Findings",
+  2: "Medium Risk Findings",
+  1: "Low Risk Findings",
+  0: "Non-Critical Findings",
+  g: "Gas Optimizations",
+};
 const handles = Array.from(new Set(data.map((finding) => finding.handle)));
 
 const findWhere = (array, criteria) => {
@@ -29,16 +36,25 @@ const findWhere = (array, criteria) => {
   );
 };
 
+const getFindingByRisk = (risk) => {
+  const all = data.filter((finding) => {
+    return finding.risk === risk;
+  });
+  const unique = Array.from(new Set(all.map((finding) => finding.reportId)));
+  return { all, unique };
+};
+
 (async () => {
-  const getIssues = async (label) => {
+  const getIssues = async (issue_number) => {
     try {
-      const issues = await octokit.request("GET /repos/{owner}/{repo}/issues", {
-        owner,
-        repo,
-        state: "open",
-        labels: label,
-      });
-      // console.log(issues.data);
+      const issues = await octokit.request(
+        "GET /repos/{owner}/{repo}/issues/{issue_number}",
+        {
+          owner,
+          repo,
+          issue_number,
+        }
+      );
       return issues.data;
     } catch (error) {
       console.error(error.message);
@@ -55,101 +71,126 @@ const findWhere = (array, criteria) => {
           issue_number,
         }
       );
-      // console.log(issues.data);
       return events.data;
     } catch (error) {
       console.err(error.message);
     }
   };
-
-  const labels = [
-    "3 (High Risk)",
-    "2 (Med Risk)",
-    "1 (Low Risk)",
-    "0 (Non-Critical)",
-    "G (Gas Optimization)",
-  ];
-
-  let mdCategories = "";
-  for (label of labels) {
-    const issuesByLabel = await getIssues(label);
-
-    const sectionHeader = `# ${label}`;
-    let mdIssues = sectionHeader;
-
-    // find issueByLabel matching issue id
-
-    // TODO need to iterate through judged findings json instead?
-    for (issue of issuesByLabel) {
-      // console.log(issue.number);
-      const issueEvents = await getIssueEvents(issue.number);
-      let mdEvents = "";
-      for (e of issueEvents) {
-        if (e.event === "commented") {
-          mdEvents =
-            mdEvents +
-            `- [${e.actor.login} ${e.event}](${issue.html_url}): ${e.body}`;
+  const getIssueComments = async (issue_number) => {
+    try {
+      const comments = await octokit.request(
+        "GET /repos/{owner}/{repo}/issues/{issue_number}/comments",
+        {
+          owner,
+          repo,
+          issue_number,
         }
-        if (e.event === "labeled") {
-          if (e.label.name !== "bug") {
-            mdEvents =
-              mdEvents +
-              `- [${e.actor.login} ${e.event}](${issue.html_url}) ${e.label.name}`;
+      );
+      // console.log(issues.data);
+      return comments.data;
+    } catch (error) {
+      console.err(error.message);
+    }
+  };
+
+  let mdCategories = [];
+  for (risk of riskSet) {
+    const sectionHeader = `# ${labels[risk]}\n`;
+    let mdIssues = [sectionHeader];
+
+    // TODO this isn't getting the right risk options
+    const findingsWithThisRisk = getFindingByRisk(risk).all;
+    // console.log("risk", risk, "findingsWithThisRisk", findingsWithThisRisk);
+
+    for (finding of findingsWithThisRisk) {
+      if (!finding.duplicateOf) {
+        // console.log("finding.issueId", finding.issueId);
+        const issue = await getIssues(finding.issueId);
+        if (issue.state === "open") {
+          // console.log("issue", issue.number);
+          const issueEvents = await getIssueEvents(issue.number);
+          const issueComments = await getIssueComments(issue.number);
+
+          let mdComments = "";
+          for (c of issueComments) {
+            const commentBodyArray = c.body.split("\r\n");
+            let commentBody = "";
+            for (line of commentBodyArray) {
+              commentBody = commentBody + `> ${line}\n`;
+            }
+
+            mdComments =
+              mdComments +
+              `**[${c.user.login} commented](${c.html_url}):**\n ${commentBody}\n`;
+          }
+
+          let mdEvents = "";
+          for (e of issueEvents) {
+            if (e.event === "labeled") {
+              if (e.label.name !== "bug" && e.actor.login !== "code423n4") {
+                mdEvents =
+                  mdEvents +
+                  `- [${e.actor.login} ${e.event}](${issue.html_url}) ${e.label.name}`;
+              }
+            }
+          }
+
+          var mapObj = {
+            "# Impact\n": "",
+            "# Proof of concept\n": "",
+            "# Tools used\n": "",
+            "# Eth address\n": "",
+            "# Handle\n": "",
+            "# Email address\n": "",
+            "# Recommended mitigation steps": "#### Mitigation",
+            "[^]*.+?(?=Vulnerability details)": "#### Vulnerability details",
+          };
+
+          const re = new RegExp(Object.keys(mapObj).join("|"), "gi");
+          const bodyTrim1 = issue.body.replace(re, function (matched) {
+            return mapObj[matched];
+          });
+
+          // TODO yeah ok I am lousy at regex and lazy and this works
+          const bodyTrim2 = bodyTrim1.replace(
+            "undefinedVulnerability details\n",
+            ""
+          );
+          const bodyTrim3 = bodyTrim2.replace("#undefined", "");
+          const body = bodyTrim3.replace("#\n", "");
+
+          if (issue.number) {
+            const f = findWhere(data, { issueId: issue.number.toString() });
+            if (f !== undefined) {
+              const mdIssue = `## [[${f.reportId}] ${issue.title}](${
+                f.issueUrl
+              })\n${body}\n${mdEvents ? "### Log:\n" + mdEvents + "\n" : ""}${
+                mdComments ? "### Comments:\n" + mdComments + "\n" : ""
+              }`;
+              mdIssues.push(mdIssue);
+            }
           }
         }
       }
-
-      var mapObj = {
-        "# Impact\n": "",
-        "# Proof of concept\n": "",
-        "# Tools used\n": "",
-        "# Eth address\n": "",
-        "# Handle\n": "",
-        "# Email address\n": "",
-        "# Recommended mitigation steps": "#### Mitigation",
-        "[^]*.+?(?=Vulnerability details)": "#### Vulnerability details",
-      };
-
-      const re = new RegExp(Object.keys(mapObj).join("|"), "gi");
-      const bodyTrim1 = issue.body.replace(re, function (matched) {
-        return mapObj[matched];
-      });
-
-      // TODO yeah ok I am lousy at regex and lazy and this works
-      const bodyTrim2 = bodyTrim1.replace(
-        "undefinedVulnerability details\n",
-        ""
-      );
-      const bodyTrim3 = bodyTrim2.replace("#undefined", "");
-      const body = bodyTrim3.replace("#\n", "");
-
-      if (issue.number) {
-        const f = findWhere(data, { issueId: issue.number });
-        if (f !== undefined) {
-          const mdIssue = `## [[${f.finding}] ${issue.title}](${f.issueUrl})\n${body}\n### Log: \n${mdEvents}\n`;
-          mdIssues = mdIssues + "\n\n" + mdIssue;
-        }
-      }
     }
-
-    mdCategories = mdCategories + `\n\n` + mdIssues;
+    const categoryIssues = mdIssues.sort();
+    mdCategories.push(categoryIssues);
   }
 
+  const allIssues = mdCategories.join(" \n");
+  // console.log(allIssues);
+  // console.log(typeof allIssues);
+
+  // TODO something screwy is happening but I'll figure out why later
+  const report = allIssues.replace(/,##/g, "##");
+
   try {
-    fs.writeFile(`${sponsorName}-draft-report.md`, mdCategories);
+    fs.writeFile(`${sponsorName}-draft-report.md`, report);
     console.log(`${sponsorName}-draft-report.md file written`);
   } catch (error) {
     console.err(error.message);
   }
 })();
-
-const getFindingByRisk = (risk) => {
-  const all = data.filter((finding) => {
-    return finding.risk === risk;
-  });
-  const unique = Array.from(new Set(all.map((finding) => finding.finding)));
-  return { all, unique };
-};
 
 const getPieSlices = () => {
   let pieSlices = [];
@@ -169,7 +210,7 @@ const getPieSlices = () => {
     for (uniqueFinding of uniqueFindings) {
       const split = findings.reduce(
         (total, finding) =>
-          finding.finding === uniqueFinding ? total + 1 : total + 0,
+          finding.reportId === uniqueFinding ? total + 1 : total + 0,
         0
       );
 
@@ -177,7 +218,7 @@ const getPieSlices = () => {
       const slice = pie / split;
 
       const pieSlice = {
-        finding: uniqueFinding,
+        reportId: uniqueFinding,
         risk,
         split,
         pie,
@@ -201,7 +242,7 @@ const getHandleSlices = (handleFindings, allSlices) =>
   handleFindings.map((handleFinding) => ({
     ...allSlices.find(
       (sliceFinding) =>
-        sliceFinding.finding === handleFinding.finding && handleFinding
+        sliceFinding.reportId === handleFinding.reportId && handleFinding
     ),
     ...handleFinding,
   }));
@@ -226,13 +267,13 @@ const allSlices = getPieSlices();
 const getHandleTotals = (allSlices) => {
   const mainPoolSlices = allSlices.filter((slice) => {
     return (
-      slice.finding.charAt(0) === "H" ||
-      slice.finding.charAt(0) === "M" ||
-      slice.finding.charAt(0) === "L"
+      slice.reportId.charAt(0) === "H" ||
+      slice.reportId.charAt(0) === "M" ||
+      slice.reportId.charAt(0) === "L"
     );
   });
   const gasPoolSlices = allSlices.filter((slice) => {
-    return slice.finding.charAt(0) === "G";
+    return slice.reportId.charAt(0) === "G";
   });
 
   const mainPieTotal = getPieTotal(mainPoolSlices);
@@ -261,20 +302,20 @@ const compileAwards = () => {
       // console.log('slice', slice);
       let award;
       if (
-        slice.finding.charAt(0) === "H" ||
-        slice.finding.charAt(0) === "M" ||
-        slice.finding.charAt(0) === "L"
+        slice.reportId.charAt(0) === "H" ||
+        slice.reportId.charAt(0) === "M" ||
+        slice.reportId.charAt(0) === "L"
       ) {
         award = (slice.slice / totals.mainPieTotal) * mainPool;
       }
-      if (slice.finding.charAt(0) === "G") {
+      if (slice.reportId.charAt(0) === "G") {
         award = (slice.slice / totals.gasPieTotal) * gasPool;
       }
       awardUSD = Number((award * awardCoinInUSD).toFixed(2));
       const handleAward = {
         contest: contestId,
         handle,
-        finding: slice.finding,
+        finding: slice.reportId,
         risk: slice.risk,
         pie: slice.pie,
         split: slice.split,
@@ -337,6 +378,7 @@ const reconcileAwards = () => {
 
   for (risk of riskSet) {
     const riskLabels = {
+      0: " Non-crit findings:",
       1: " Low risk findings:",
       2: " Med risk findings:",
       3: "High risk findings:",

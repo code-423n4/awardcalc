@@ -3,4 +3,5 @@
 *.md
 node_modules
 .nova
+.DS_Store
 .git
