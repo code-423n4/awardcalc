@@ -1,0 +1,6 @@
+.env
+*.json
+*.md
+node_modules
+.nova
+.git

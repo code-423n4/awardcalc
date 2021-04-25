@@ -1,4 +1,14 @@
+require("dotenv").config();
 const fs = require("fs").promises;
+const fetch = require("node-fetch");
+const dedent = require("dedent");
+const { Octokit } = require("@octokit/core");
+const owner = process.env.GITHUB_OWNER;
+const repo = process.env.GITHUB_REPO;
+const token = process.env.GITHUB_TOKEN;
+
+const octokit = new Octokit({ auth: token });
+
 const {
   contestId,
   sponsorName,
@@ -6,12 +16,132 @@ const {
   gasPool,
   awardCoin,
   awardCoinInUSD,
-} = require("./slingshot-config.json");
+} = require("./marginswap-config.json");
 
 const data = require(`./${sponsorName}-judged.json`);
 
 const riskSet = ["1", "2", "3", "g"];
 const handles = Array.from(new Set(data.map((finding) => finding.handle)));
+
+const findWhere = (array, criteria) => {
+  return array.find((item) =>
+    Object.keys(criteria).every((key) => item[key] === criteria[key])
+  );
+};
+
+(async () => {
+  const getIssues = async (label) => {
+    try {
+      const issues = await octokit.request("GET /repos/{owner}/{repo}/issues", {
+        owner,
+        repo,
+        state: "open",
+        labels: label,
+      });
+      // console.log(issues.data);
+      return issues.data;
+    } catch (error) {
+      console.error(error.message);
+    }
+  };
+
+  const getIssueEvents = async (issue_number) => {
+    try {
+      const events = await octokit.request(
+        "GET /repos/{owner}/{repo}/issues/{issue_number}/events",
+        {
+          owner,
+          repo,
+          issue_number,
+        }
+      );
+      // console.log(issues.data);
+      return events.data;
+    } catch (error) {
+      console.err(error.message);
+    }
+  };
+
+  const labels = [
+    "3 (High Risk)",
+    "2 (Med Risk)",
+    "1 (Low Risk)",
+    "0 (Non-Critical)",
+    "G (Gas Optimization)",
+  ];
+
+  let mdCategories = "";
+  for (label of labels) {
+    const issuesByLabel = await getIssues(label);
+
+    const sectionHeader = `# ${label}`;
+    let mdIssues = sectionHeader;
+
+    // find issueByLabel matching issue id
+
+    // TODO need to iterate through judged findings json instead?
+    for (issue of issuesByLabel) {
+      // console.log(issue.number);
+      const issueEvents = await getIssueEvents(issue.number);
+      let mdEvents = "";
+      for (e of issueEvents) {
+        if (e.event === "commented") {
+          mdEvents =
+            mdEvents +
+            `- [${e.actor.login} ${e.event}](${issue.html_url}): ${e.body}`;
+        }
+        if (e.event === "labeled") {
+          if (e.label.name !== "bug") {
+            mdEvents =
+              mdEvents +
+              `- [${e.actor.login} ${e.event}](${issue.html_url}) ${e.label.name}`;
+          }
+        }
+      }
+
+      var mapObj = {
+        "# Impact\n": "",
+        "# Proof of concept\n": "",
+        "# Tools used\n": "",
+        "# Eth address\n": "",
+        "# Handle\n": "",
+        "# Email address\n": "",
+        "# Recommended mitigation steps": "#### Mitigation",
+        "[^]*.+?(?=Vulnerability details)": "#### Vulnerability details",
+      };
+
+      const re = new RegExp(Object.keys(mapObj).join("|"), "gi");
+      const bodyTrim1 = issue.body.replace(re, function (matched) {
+        return mapObj[matched];
+      });
+
+      // TODO yeah ok I am lousy at regex and lazy and this works
+      const bodyTrim2 = bodyTrim1.replace(
+        "undefinedVulnerability details\n",
+        ""
+      );
+      const bodyTrim3 = bodyTrim2.replace("#undefined", "");
+      const body = bodyTrim3.replace("#\n", "");
+
+      if (issue.number) {
+        const f = findWhere(data, { issueId: issue.number });
+        if (f !== undefined) {
+          const mdIssue = `## [[${f.finding}] ${issue.title}](${f.issueUrl})\n${body}\n### Log: \n${mdEvents}\n`;
+          mdIssues = mdIssues + "\n\n" + mdIssue;
+        }
+      }
+    }
+
+    mdCategories = mdCategories + `\n\n` + mdIssues;
+  }
+
+  try {
+    fs.writeFile(`${sponsorName}-draft-report.md`, mdCategories);
+    console.log(`${sponsorName}-draft-report.md file written`);
+  } catch (error) {
+    console.err(error.message);
+  }
+})();
 
 const getFindingByRisk = (risk) => {
   const all = data.filter((finding) => {
@@ -128,6 +258,7 @@ const compileAwards = () => {
     const handleSlices = getHandleSlices(handleFindings, allSlices);
 
     for (slice of handleSlices) {
+      // console.log('slice', slice);
       let award;
       if (
         slice.finding.charAt(0) === "H" ||
