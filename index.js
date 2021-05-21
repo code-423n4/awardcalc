@@ -16,7 +16,7 @@ const {
   gasPool,
   awardCoin,
   awardCoinInUSD,
-} = require("./marginswap-config.json");
+} = require("./basedloans-config.json");
 
 const data = require(`./${sponsorName}-judged.json`);
 
@@ -122,6 +122,7 @@ const getFindingByRisk = (risk) => {
             mdComments =
               mdComments +
               `**[${c.user.login} commented](${c.html_url}):**\n ${commentBody}\n`;
+            // console.log(mdComments);
           }
 
           let mdEvents = "";
@@ -160,7 +161,8 @@ const getFindingByRisk = (risk) => {
           const body = bodyTrim3.replace("#\n", "");
 
           if (issue.number) {
-            const f = findWhere(data, { issueId: issue.number.toString() });
+            const f = findWhere(data, { issueId: issue.number }); // this previously had issueId: issue.number.toString() but that was for when issueId was a string in the -judged.json file.
+            // console.log(f);
             if (f !== undefined) {
               const mdIssue = `## [[${f.reportId}] ${issue.title}](${
                 f.issueUrl
