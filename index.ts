@@ -3,12 +3,12 @@ const fs = require("fs").promises;
 import { Award, Config, Finding, Slice, Total } from "./types";
 import { getFindingByRisk, riskSet } from "./shared";
 
-const getPieSlices = (jugdedFindings: Finding[]) => {
+const getPieSlices = (judgedFindings: Finding[]) => {
   let pieSlices: Slice[] = [];
 
   for (const risk of riskSet) {
-    const findings = getFindingByRisk(jugdedFindings, risk).all;
-    const uniqueFindings = getFindingByRisk(jugdedFindings, risk).unique;
+    const findings = getFindingByRisk(judgedFindings, risk).all;
+    const uniqueFindings = getFindingByRisk(judgedFindings, risk).unique;
 
     let multiplier = 1;
     if (risk === "3") {
@@ -111,14 +111,14 @@ const getHandleTotals = (allSlices: Slice[]) => {
 
 const compileAwards = (
   { mainPool, gasPool, awardCoinInUSD, contestId, awardCoin }: Config,
-  jugdedFindings: Finding[],
+  judgedFindings: Finding[],
   handles: string[],
   totals: Total,
   allSlices: Slice[]
 ) => {
   const allHandleAwards: Award[] = [];
   for (const handle of handles) {
-    const handleFindings = getHandleFindings(jugdedFindings, handle);
+    const handleFindings = getHandleFindings(judgedFindings, handle);
     const handleSlices = getHandleSlices(handleFindings, allSlices);
 
     for (const slice of handleSlices) {
@@ -180,7 +180,7 @@ const getAwardTotals = (
 
 const reconcileAwards = (
   { mainPool, awardCoin, gasPool }: Config,
-  jugdedFindings: Finding[],
+  judgedFindings: Finding[],
   allHandleAwards: Award[]
 ) => {
   const mainPoolAwards = allHandleAwards.filter((item) => {
@@ -215,8 +215,8 @@ const reconcileAwards = (
       3: "High risk findings:",
       g: " Gas optimizations:",
     };
-    const allRiskFindings = getFindingByRisk(jugdedFindings, risk).all.length;
-    const uniqueRiskFindings = getFindingByRisk(jugdedFindings, risk).unique
+    const allRiskFindings = getFindingByRisk(judgedFindings, risk).all.length;
+    const uniqueRiskFindings = getFindingByRisk(judgedFindings, risk).unique
       .length;
     console.log(
       `${riskLabels[risk]} ${allRiskFindings} total, ${uniqueRiskFindings} unique`
@@ -254,7 +254,7 @@ const reconcileAwards = (
 
 const printAwardReport = (
   config: Config,
-  jugdedFindings: Finding[],
+  judgedFindings: Finding[],
   handles: string[],
   awards: Award[]
 ): void => {
@@ -262,29 +262,29 @@ const printAwardReport = (
   console.log(config.sponsorName, "contest awards");
   console.log("-----------------------------------------");
   getAwardTotals(config, handles, awards);
-  reconcileAwards(config, jugdedFindings, awards);
+  reconcileAwards(config, judgedFindings, awards);
 };
 
 const main = async () => {
   const config = require("./basedloans-config.json") as Config;
 
-  const jugdedFindings =
+  const judgedFindings =
     require(`./${config.sponsorName}-judged.json`) as Finding[];
   const handles = Array.from(
-    new Set(jugdedFindings.map((finding) => finding.handle))
+    new Set(judgedFindings.map((finding) => finding.handle))
   );
 
-  const allSlices = getPieSlices(jugdedFindings);
+  const allSlices = getPieSlices(judgedFindings);
   const totals = getHandleTotals(allSlices);
   const awards = compileAwards(
     config,
-    jugdedFindings,
+    judgedFindings,
     handles,
     totals,
     allSlices
   );
 
-  printAwardReport(config, jugdedFindings, handles, awards);
+  printAwardReport(config, judgedFindings, handles, awards);
 
   if (
     config.sponsorPool &&
@@ -302,13 +302,13 @@ const main = async () => {
     };
     const sponsorAwards = compileAwards(
       updatedConfig,
-      jugdedFindings,
+      judgedFindings,
       handles,
       totals,
       allSlices
     );
 
-    printAwardReport(updatedConfig, jugdedFindings, handles, sponsorAwards);
+    printAwardReport(updatedConfig, judgedFindings, handles, sponsorAwards);
 
     awards.push(...sponsorAwards); // merge sponsor awards with main rewards
   }
@@ -317,7 +317,7 @@ const main = async () => {
   await fs.writeFile(`${config.sponsorName}-results.json`, awardData);
   console.log("-----------------------------------------");
   console.log(
-    `${jugdedFindings.length} findings written to ${config.sponsorName}-results.json`
+    `${judgedFindings.length} findings written to ${config.sponsorName}-results.json`
   );
 };
 

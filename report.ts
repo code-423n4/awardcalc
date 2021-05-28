@@ -189,9 +189,9 @@ async function generateReport({ sponsorName }: Config, data: Finding[]) {
 
 (async () => {
   const config = require("./basedloans-config.json") as Config;
-  const jugdedFindings =
+  const judgedFindings =
     require(`./${config.sponsorName}-judged.json`) as Finding[];
 
   console.log("Generating report. This may take several seconds.");
-  await generateReport(config, jugdedFindings);
+  await generateReport(config, judgedFindings);
 })();
