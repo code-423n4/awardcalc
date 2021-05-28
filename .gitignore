@@ -1,5 +1,5 @@
 .env
-*.md
+*-report.md
 node_modules
 .nova
 .DS_Store
