@@ -266,10 +266,9 @@ const printAwardReport = (
 };
 
 const main = async () => {
-  const config = require("./basedloans-config.json") as Config;
+  const config = require("./contest-config.json") as Config;
 
-  const judgedFindings =
-    require(`./${config.sponsorName}-judged.json`) as Finding[];
+  const judgedFindings = require(`./contest-judged.json`) as Finding[];
   const handles = Array.from(
     new Set(judgedFindings.map((finding) => finding.handle))
   );

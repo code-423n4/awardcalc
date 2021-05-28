@@ -4,7 +4,7 @@ Rough script for calculating awards
 
 ## Configuration
 
-You can configure the calculation by creating a `{sponsorName}-config.json` file with the following structure:
+You can configure the calculation by creating a `contest-config.json` file with the following structure:
 
 ```
 {
@@ -24,7 +24,13 @@ The `sponsorPool`, `sponsorAwardCoin`, and `sponsorAwardCoinInUSD` properties ar
 
 ## Running
 
-To run the script, update the configuration according to the above, put the `{sponsorName}-judged.json` file in the folder, and run:
+To run the script, update the configuration according to the above, put the `contest-judged.json` file in the folder. You can then generate the award amounts by running
+
+```
+npm run award
+```
+
+and can generate the draft report by running
 
 ```
 npm run report
