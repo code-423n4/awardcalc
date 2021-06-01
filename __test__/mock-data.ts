@@ -481,3 +481,61 @@ export const MOCK_FINDINGS: Finding[] = [
 export const MOCK_HANDLES = Array.from(
   new Set(MOCK_FINDINGS.map((finding) => finding.handle))
 );
+
+export const MOCK_FINDINGS_DUPLICATES: Finding[] = [
+  {
+    contest: "5",
+    handle: "paulius.eth",
+    address: "0x0c4243ca087F4e4738596F33292064e847DA80dA",
+    risk: "g",
+    reportId: "G-02",
+    duplicateOf: "G-02",
+    issueId: 308,
+    title: "repayDelay is not used anywhere",
+    issueUrl: "https://github.com/code-423n4/2021-04-vader-findings/issues/308",
+  },
+  {
+    contest: "5",
+    handle: "0xRajeev",
+    address: "0x7e026a0C061382B0F5935a90BC7324ab0a5A3aCc",
+    risk: "g",
+    reportId: "G-02",
+    duplicateOf: "G-02",
+    issueId: 102,
+    title: "Gas savings by removing unused state variable USDV in Factory.sol",
+    issueUrl: "https://github.com/code-423n4/2021-04-vader-findings/issues/102",
+  },
+  {
+    contest: "5",
+    handle: "a_delamo",
+    address: "0x69e833869584D7e468751ED5e7d23ADAdCAA3D00",
+    risk: "g",
+    reportId: "G-02",
+    duplicateOf: "G-02",
+    issueId: 247,
+    title: "Unused state variables",
+    issueUrl: "https://github.com/code-423n4/2021-04-vader-findings/issues/247",
+  },
+  {
+    contest: "5",
+    handle: "paulius.eth",
+    address: "0x0c4243ca087F4e4738596F33292064e847DA80dA",
+    risk: "g",
+    reportId: "G-02",
+    duplicateOf: "G-02",
+    issueId: 290,
+    title: "Unused variables",
+    issueUrl: "https://github.com/code-423n4/2021-04-vader-findings/issues/290",
+  },
+  {
+    contest: "5",
+    handle: "paulius.eth",
+    address: "0x0c4243ca087F4e4738596F33292064e847DA80dA",
+    risk: "g",
+    reportId: "G-02",
+    duplicateOf: "",
+    issueId: 304,
+    title: "Unused ID field in structs",
+    issueUrl: "https://github.com/code-423n4/2021-04-vader-findings/issues/304",
+  },
+];

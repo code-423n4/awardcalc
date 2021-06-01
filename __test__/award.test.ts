@@ -1,6 +1,16 @@
-import { getPieSlices, getHandleTotals, compileAwards } from "../award";
+import {
+  getPieSlices,
+  getHandleTotals,
+  compileAwards,
+  deduplicateFindings,
+} from "../award";
 import { Award } from "../types";
-import { MOCK_CONFIG, MOCK_FINDINGS, MOCK_HANDLES } from "./mock-data";
+import {
+  MOCK_CONFIG,
+  MOCK_FINDINGS,
+  MOCK_HANDLES,
+  MOCK_FINDINGS_DUPLICATES,
+} from "./mock-data";
 
 describe("getPieSlices", () => {
   test("calculates correct slices", () => {
@@ -62,5 +72,23 @@ describe("compileAwards", () => {
       return a;
     }, 0);
     expect(sampleHandleTotal).toEqual(13794.642857142859);
+  });
+});
+
+describe("deduplicateFindings", () => {
+  test("only includes original findings", () => {
+    const deduped = deduplicateFindings(MOCK_FINDINGS_DUPLICATES);
+    expect(deduped.length).toEqual(3);
+    expect(
+      deduped.map(({ handle, reportId, duplicateOf }) => {
+        return { handle, reportId, duplicateOf };
+      })
+    ).toEqual(
+      expect.arrayContaining([
+        { handle: "0xRajeev", reportId: "G-02", duplicateOf: "G-02" },
+        { handle: "a_delamo", reportId: "G-02", duplicateOf: "G-02" },
+        { handle: "paulius.eth", reportId: "G-02", duplicateOf: "" },
+      ])
+    );
   });
 });

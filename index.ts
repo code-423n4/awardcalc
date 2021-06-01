@@ -1,6 +1,11 @@
 require("dotenv").config();
 const fs = require("fs").promises;
-import { getPieSlices, getHandleTotals, compileAwards } from "./award";
+import {
+  getPieSlices,
+  getHandleTotals,
+  compileAwards,
+  deduplicateFindings,
+} from "./award";
 import { Award, Config, Finding } from "./types";
 import { getFindingByRisk, riskSet } from "./shared";
 
@@ -119,7 +124,9 @@ const printAwardReport = (
 const main = async () => {
   const config = require("./contest-config.json") as Config;
 
-  const judgedFindings = require(`./contest-judged.json`) as Finding[];
+  const judgedFindings = deduplicateFindings(
+    require(`./contest-judged.json`) as Finding[]
+  );
   const handles = Array.from(
     new Set(judgedFindings.map((finding) => finding.handle))
   );

@@ -5,8 +5,10 @@ export const getPieSlices = (judgedFindings: Finding[]) => {
   let pieSlices: Slice[] = [];
 
   for (const risk of riskSet) {
-    const findings = getFindingByRisk(judgedFindings, risk).all;
-    const uniqueFindings = getFindingByRisk(judgedFindings, risk).unique;
+    const { all: findings, unique: uniqueFindings } = getFindingByRisk(
+      judgedFindings,
+      risk
+    );
 
     let multiplier = 1;
     if (risk === "3") {
@@ -149,4 +151,21 @@ export const compileAwards = (
     }
   }
   return allHandleAwards;
+};
+
+export const deduplicateFindings = (data: Finding[]): Finding[] => {
+  const uniqueHandleReports = new Map();
+  for (const finding of data) {
+    const key = `${finding.handle}-${finding.reportId}`;
+    if (uniqueHandleReports.has(key)) {
+      const existingFinding = uniqueHandleReports.get(key);
+      if (existingFinding.duplicateOf !== "" && finding.duplicateOf === "") {
+        uniqueHandleReports.set(key, finding);
+      }
+    } else {
+      uniqueHandleReports.set(key, finding);
+    }
+  }
+
+  return Array.from(uniqueHandleReports.values());
 };
