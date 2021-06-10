@@ -1,7 +1,9 @@
 .env
-*.json
-*.md
+*-report.md
 node_modules
 .nova
 .DS_Store
 .git
+*-judged.json
+*-config.json
+*-results.json

@@ -1,0 +1,36 @@
+{
+  "name": "awardcalc",
+  "version": "1.0.0",
+  "description": "Rough script for calculating awards",
+  "main": "index.js",
+  "scripts": {
+    "award": "ts-node index.ts",
+    "report": "ts-node report.ts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-423n4/awardCalc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-423n4/awardCalc/issues"
+  },
+  "homepage": "https://github.com/code-423n4/awardCalc#readme",
+  "dependencies": {
+    "@octokit/core": "^3.4.0",
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^27.0.1",
+    "jest": "^27.0.1"
+  }
+}
