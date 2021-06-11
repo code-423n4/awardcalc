@@ -549,6 +549,27 @@ Require `isContract(dist)`.
 
 ### Log:
 - [0xKiwi labeled](https://github.com/code-423n4/2021-05-nftx-findings/issues/48) Confirmed
+## [[L-08] Potential bug with `reverseEligOnRedeem` / misleading name](https://github.com/code-423n4/2021-05-nftx-findings/issues/57)
+undefinedVulnerability Details
+
+`NFTXUniqueEligibility`/`NFTXDenyEligibility` use a `reverseEligOnRedeem` flag.
+The eligibility is only checked by the vault on mint.
+After the mint, the eligibility of the NFT can be changed to be uneligible again.
+
+Then by the name of `reverseEligOnRedeem` one would expect it to reverse/toggle the eligibility on redeem, but it always sets it to _uneligible_ instead.
+
+It acts like an `uneligOnRedeem` flag.
+
+Could be a logic error or just a misnaming and then be misinterpreted by vault managers.
+
+
+
+Change the name to `uneligOnRedeem` or fix the `afterRedeemHook`s to actually toggle the eligibility.
+
+
+
+### Log:
+- [0xKiwi labeled](https://github.com/code-423n4/2021-05-nftx-findings/issues/57) Confirmed
 ## [[L-08] Vault's flash loan not implemented according to EIP-3156](https://github.com/code-423n4/2021-05-nftx-findings/issues/54)
 undefinedVulnerability Details
 
@@ -626,6 +647,19 @@ Here you have more info: https://gist.github.com/alexon1234/43bf4a72a5b06651f04f
 
 ### Log:
 - [0xKiwi labeled](https://github.com/code-423n4/2021-05-nftx-findings/issues/84) Confirmed
+## [[] Upgradeable contracts not Upgradeable](https://github.com/code-423n4/2021-05-nftx-findings/issues/87)
+
+Here you have more info: 
+https://gist.github.com/alexon1234/1e7d9bac6c382ebdc35d067170cfd9d5
+
+
+### Log:
+- [0xKiwi labeled](https://github.com/code-423n4/2021-05-nftx-findings/issues/87) Disputed
+### Comments:
+**[cemozerr commented](https://github.com/code-423n4/2021-05-nftx-findings/issues/87#issuecomment-848301352):**
+ > @0xKiwi can you explain why you disputed this issue?
+
+
  
 # Non-Critical Findings
 ## [[N-01] LockIds not according to spec](https://github.com/code-423n4/2021-05-nftx-findings/issues/52)
