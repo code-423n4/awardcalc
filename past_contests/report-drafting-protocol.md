@@ -1,4 +1,4 @@
-This protocol details what processing needs to be applied to the raw aggregated contest finding results in order to  produce the final human readable [Audit Reports](https://code423n4.com/reports) shared with the public on the C4 website
+This protocol details what processing needs to be applied to the raw aggregated contest finding results in order to  produce the final human readable [Audit Reports](https://code423n4.com/reports) shared with the public on the C4 website.
 
 TO ADD:
 a screen and link that gives a good before after comparison
