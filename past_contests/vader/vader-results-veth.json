@@ -7,9 +7,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -19,9 +19,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -31,9 +31,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -43,9 +43,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -55,9 +55,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -67,9 +67,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.01723693982605587,
-    "awardCoin": "ETH",
-    "awardUSD": 43.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -79,9 +79,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.008377152755463154,
-    "awardCoin": "ETH",
-    "awardUSD": 20.94
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -91,9 +91,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -103,9 +103,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -115,9 +115,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -127,9 +127,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -139,9 +139,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -151,9 +151,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -163,9 +163,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -175,9 +175,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -187,9 +187,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -199,9 +199,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -211,9 +211,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -223,9 +223,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -235,9 +235,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -247,9 +247,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -259,9 +259,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -271,9 +271,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -283,9 +283,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -295,9 +295,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -307,9 +307,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -319,9 +319,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -331,9 +331,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -343,9 +343,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -355,9 +355,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -367,9 +367,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -379,9 +379,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -391,9 +391,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.02111835370700436,
-    "awardCoin": "ETH",
-    "awardUSD": 52.8
+    "award": 0.879931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 45.76
   },
   {
     "contest": 5,
@@ -403,9 +403,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.01026351990160412,
-    "awardCoin": "ETH",
-    "awardUSD": 25.66
+    "award": 0.42764666256683836,
+    "awardCoin": "VETH",
+    "awardUSD": 22.24
   },
   {
     "contest": 5,
@@ -415,9 +415,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.014254888752227943,
-    "awardCoin": "ETH",
-    "awardUSD": 35.64
+    "award": 0.5939536980094977,
+    "awardCoin": "VETH",
+    "awardUSD": 30.89
   },
   {
     "contest": 5,
@@ -427,9 +427,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
-    "award": 0.0351972561783406,
-    "awardCoin": "ETH",
-    "awardUSD": 87.99
+    "award": 1.4665523407641916,
+    "awardCoin": "VETH",
+    "awardUSD": 76.26
   },
   {
     "contest": 5,
@@ -439,9 +439,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.02111835370700436,
-    "awardCoin": "ETH",
-    "awardUSD": 52.8
+    "award": 0.879931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 45.76
   },
   {
     "contest": 5,
@@ -451,9 +451,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -463,9 +463,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -475,9 +475,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -487,9 +487,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -499,9 +499,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -511,9 +511,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -523,9 +523,9 @@
     "pie": 2.43,
     "split": 3,
     "slice": 0.81,
-    "award": 0.06335506112101308,
-    "awardCoin": "ETH",
-    "awardUSD": 158.39
+    "award": 2.639794213375545,
+    "awardCoin": "VETH",
+    "awardUSD": 137.27
   },
   {
     "contest": 5,
@@ -535,9 +535,9 @@
     "pie": 2.1870000000000003,
     "split": 4,
     "slice": 0.5467500000000001,
-    "award": 0.042764666256683834,
-    "awardCoin": "ETH",
-    "awardUSD": 106.91
+    "award": 1.781861094028493,
+    "awardCoin": "VETH",
+    "awardUSD": 92.66
   },
   {
     "contest": 5,
@@ -547,9 +547,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -559,9 +559,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -571,9 +571,9 @@
     "pie": 2.7,
     "split": 2,
     "slice": 1.35,
-    "award": 0.10559176853502181,
-    "awardCoin": "ETH",
-    "awardUSD": 263.98
+    "award": 4.399657022292575,
+    "awardCoin": "VETH",
+    "awardUSD": 228.78
   },
   {
     "contest": 5,
@@ -583,9 +583,8 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -595,9 +594,8 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -607,9 +605,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -619,9 +616,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -631,9 +627,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -643,9 +639,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -655,9 +651,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.01723693982605587,
-    "awardCoin": "ETH",
-    "awardUSD": 43.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -667,9 +663,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.008377152755463154,
-    "awardCoin": "ETH",
-    "awardUSD": 20.94
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -679,9 +675,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -691,9 +687,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
-    "award": 0.02872823304342645,
-    "awardCoin": "ETH",
-    "awardUSD": 71.82
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -703,9 +699,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.01723693982605587,
-    "awardCoin": "ETH",
-    "awardUSD": 43.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -715,9 +711,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -727,9 +723,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -739,9 +735,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -751,9 +747,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -763,9 +759,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -775,9 +771,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -787,9 +783,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
-    "award": 0.02872823304342645,
-    "awardCoin": "ETH",
-    "awardUSD": 71.82
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -799,9 +795,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -811,9 +807,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -823,9 +819,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -835,9 +831,9 @@
     "pie": 7.290000000000001,
     "split": 4,
     "slice": 1.8225000000000002,
-    "award": 0.14254888752227945,
-    "awardCoin": "ETH",
-    "awardUSD": 356.37
+    "award": 5.939536980094977,
+    "awardCoin": "VETH",
+    "awardUSD": 308.86
   },
   {
     "contest": 5,
@@ -847,9 +843,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -859,9 +855,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.014254888752227943,
-    "awardCoin": "ETH",
-    "awardUSD": 35.64
+    "award": 0.5939536980094977,
+    "awardCoin": "VETH",
+    "awardUSD": 30.89
   },
   {
     "contest": 5,
@@ -871,9 +867,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -883,9 +879,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -895,9 +891,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -907,9 +903,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
-    "award": 0.0351972561783406,
-    "awardCoin": "ETH",
-    "awardUSD": 87.99
+    "award": 1.4665523407641916,
+    "awardCoin": "VETH",
+    "awardUSD": 76.26
   },
   {
     "contest": 5,
@@ -919,9 +915,9 @@
     "pie": 2.43,
     "split": 3,
     "slice": 0.81,
-    "award": 0.06335506112101308,
-    "awardCoin": "ETH",
-    "awardUSD": 158.39
+    "award": 2.639794213375545,
+    "awardCoin": "VETH",
+    "awardUSD": 137.27
   },
   {
     "contest": 5,
@@ -931,9 +927,9 @@
     "pie": 2.7,
     "split": 2,
     "slice": 1.35,
-    "award": 0.10559176853502181,
-    "awardCoin": "ETH",
-    "awardUSD": 263.98
+    "award": 4.399657022292575,
+    "awardCoin": "VETH",
+    "awardUSD": 228.78
   },
   {
     "contest": 5,
@@ -943,9 +939,9 @@
     "pie": 2.43,
     "split": 3,
     "slice": 0.81,
-    "award": 0.06335506112101308,
-    "awardCoin": "ETH",
-    "awardUSD": 158.39
+    "award": 2.639794213375545,
+    "awardCoin": "VETH",
+    "awardUSD": 137.27
   },
   {
     "contest": 5,
@@ -955,9 +951,9 @@
     "pie": 2.7,
     "split": 2,
     "slice": 1.35,
-    "award": 0.10559176853502181,
-    "awardCoin": "ETH",
-    "awardUSD": 263.98
+    "award": 4.399657022292575,
+    "awardCoin": "VETH",
+    "awardUSD": 228.78
   },
   {
     "contest": 5,
@@ -967,9 +963,8 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -979,9 +974,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -991,9 +985,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1003,9 +997,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1015,9 +1009,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1027,9 +1021,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1039,9 +1033,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1051,9 +1045,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1063,9 +1057,9 @@
     "pie": 7.290000000000001,
     "split": 4,
     "slice": 1.8225000000000002,
-    "award": 0.14254888752227945,
-    "awardCoin": "ETH",
-    "awardUSD": 356.37
+    "award": 5.939536980094977,
+    "awardCoin": "VETH",
+    "awardUSD": 308.86
   },
   {
     "contest": 5,
@@ -1075,9 +1069,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.02111835370700436,
-    "awardCoin": "ETH",
-    "awardUSD": 52.8
+    "award": 0.879931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 45.76
   },
   {
     "contest": 5,
@@ -1087,9 +1081,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.01026351990160412,
-    "awardCoin": "ETH",
-    "awardUSD": 25.66
+    "award": 0.42764666256683836,
+    "awardCoin": "VETH",
+    "awardUSD": 22.24
   },
   {
     "contest": 5,
@@ -1099,9 +1093,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -1111,9 +1105,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.014254888752227943,
-    "awardCoin": "ETH",
-    "awardUSD": 35.64
+    "award": 0.5939536980094977,
+    "awardCoin": "VETH",
+    "awardUSD": 30.89
   },
   {
     "contest": 5,
@@ -1123,9 +1117,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -1135,9 +1129,8 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -1147,9 +1140,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1159,9 +1152,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1171,9 +1164,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.008377152755463154,
-    "awardCoin": "ETH",
-    "awardUSD": 20.94
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1183,9 +1176,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1195,9 +1188,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.01723693982605587,
-    "awardCoin": "ETH",
-    "awardUSD": 43.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1207,9 +1200,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
-    "award": 0.02872823304342645,
-    "awardCoin": "ETH",
-    "awardUSD": 71.82
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1219,9 +1212,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1231,9 +1224,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1243,9 +1236,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1255,9 +1248,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -1267,9 +1260,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -1279,9 +1272,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -1291,9 +1284,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.01026351990160412,
-    "awardCoin": "ETH",
-    "awardUSD": 25.66
+    "award": 0.42764666256683836,
+    "awardCoin": "VETH",
+    "awardUSD": 22.24
   },
   {
     "contest": 5,
@@ -1303,9 +1296,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
-    "award": 0.0351972561783406,
-    "awardCoin": "ETH",
-    "awardUSD": 87.99
+    "award": 1.4665523407641916,
+    "awardCoin": "VETH",
+    "awardUSD": 76.26
   },
   {
     "contest": 5,
@@ -1315,9 +1308,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
-    "award": 0.0351972561783406,
-    "awardCoin": "ETH",
-    "awardUSD": 87.99
+    "award": 1.4665523407641916,
+    "awardCoin": "VETH",
+    "awardUSD": 76.26
   },
   {
     "contest": 5,
@@ -1327,9 +1320,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -1339,9 +1332,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.02111835370700436,
-    "awardCoin": "ETH",
-    "awardUSD": 52.8
+    "award": 0.879931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 45.76
   },
   {
     "contest": 5,
@@ -1351,9 +1344,9 @@
     "pie": 2.43,
     "split": 3,
     "slice": 0.81,
-    "award": 0.06335506112101308,
-    "awardCoin": "ETH",
-    "awardUSD": 158.39
+    "award": 2.639794213375545,
+    "awardCoin": "VETH",
+    "awardUSD": 137.27
   },
   {
     "contest": 5,
@@ -1363,9 +1356,8 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -1375,9 +1367,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -1387,9 +1378,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1399,9 +1390,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1411,9 +1402,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1423,9 +1414,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1435,9 +1426,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1447,9 +1438,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1459,9 +1450,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
-    "award": 0.02872823304342645,
-    "awardCoin": "ETH",
-    "awardUSD": 71.82
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1471,9 +1462,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -1483,9 +1474,9 @@
     "pie": 2.43,
     "split": 3,
     "slice": 0.81,
-    "award": 0.06335506112101308,
-    "awardCoin": "ETH",
-    "awardUSD": 158.39
+    "award": 2.639794213375545,
+    "awardCoin": "VETH",
+    "awardUSD": 137.27
   },
   {
     "contest": 5,
@@ -1495,9 +1486,9 @@
     "pie": 2.1870000000000003,
     "split": 4,
     "slice": 0.5467500000000001,
-    "award": 0.042764666256683834,
-    "awardCoin": "ETH",
-    "awardUSD": 106.91
+    "award": 1.781861094028493,
+    "awardCoin": "VETH",
+    "awardUSD": 92.66
   },
   {
     "contest": 5,
@@ -1507,9 +1498,8 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -1519,9 +1509,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -1531,9 +1520,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -1543,9 +1531,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1555,9 +1543,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1567,9 +1555,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1579,9 +1567,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.01723693982605587,
-    "awardCoin": "ETH",
-    "awardUSD": 43.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1591,9 +1579,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1603,9 +1591,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1615,9 +1603,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -1627,9 +1615,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -1639,9 +1627,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -1651,9 +1639,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -1663,9 +1651,9 @@
     "pie": 2.1870000000000003,
     "split": 4,
     "slice": 0.5467500000000001,
-    "award": 0.042764666256683834,
-    "awardCoin": "ETH",
-    "awardUSD": 106.91
+    "award": 1.781861094028493,
+    "awardCoin": "VETH",
+    "awardUSD": 92.66
   },
   {
     "contest": 5,
@@ -1675,9 +1663,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1687,9 +1675,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.01723693982605587,
-    "awardCoin": "ETH",
-    "awardUSD": 43.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1699,9 +1687,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.008377152755463154,
-    "awardCoin": "ETH",
-    "awardUSD": 20.94
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1711,9 +1699,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -1723,9 +1711,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.02111835370700436,
-    "awardCoin": "ETH",
-    "awardUSD": 52.8
+    "award": 0.879931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 45.76
   },
   {
     "contest": 5,
@@ -1735,9 +1723,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.01026351990160412,
-    "awardCoin": "ETH",
-    "awardUSD": 25.66
+    "award": 0.42764666256683836,
+    "awardCoin": "VETH",
+    "awardUSD": 22.24
   },
   {
     "contest": 5,
@@ -1747,9 +1735,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -1759,9 +1747,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.008377152755463154,
-    "awardCoin": "ETH",
-    "awardUSD": 20.94
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1771,9 +1759,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.011634934382587713,
-    "awardCoin": "ETH",
-    "awardUSD": 29.09
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1783,9 +1771,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1795,9 +1783,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1807,9 +1795,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -1819,9 +1807,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -1831,9 +1819,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -1843,9 +1831,9 @@
     "pie": 8.100000000000001,
     "split": 3,
     "slice": 2.7000000000000006,
-    "award": 0.21118353707004361,
-    "awardCoin": "ETH",
-    "awardUSD": 527.96
+    "award": 8.79931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 457.56
   },
   {
     "contest": 5,
@@ -1855,9 +1843,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -1867,9 +1855,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1879,9 +1867,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1891,9 +1879,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1903,9 +1891,9 @@
     "pie": 7.290000000000001,
     "split": 4,
     "slice": 1.8225000000000002,
-    "award": 0.14254888752227945,
-    "awardCoin": "ETH",
-    "awardUSD": 356.37
+    "award": 5.939536980094977,
+    "awardCoin": "VETH",
+    "awardUSD": 308.86
   },
   {
     "contest": 5,
@@ -1915,9 +1903,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1927,9 +1915,9 @@
     "pie": 9,
     "split": 2,
     "slice": 4.5,
-    "award": 0.35197256178340597,
-    "awardCoin": "ETH",
-    "awardUSD": 879.93
+    "award": 14.665523407641915,
+    "awardCoin": "VETH",
+    "awardUSD": 762.61
   },
   {
     "contest": 5,
@@ -1939,9 +1927,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1951,9 +1939,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1963,9 +1951,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1975,9 +1963,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1987,9 +1975,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -1999,9 +1987,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -2011,9 +1999,9 @@
     "pie": 0.6561000000000001,
     "split": 5,
     "slice": 0.13122000000000003,
-    "award": 0.01026351990160412,
-    "awardCoin": "ETH",
-    "awardUSD": 25.66
+    "award": 0.42764666256683836,
+    "awardCoin": "VETH",
+    "awardUSD": 22.24
   },
   {
     "contest": 5,
@@ -2023,9 +2011,9 @@
     "pie": 0.7290000000000001,
     "split": 4,
     "slice": 0.18225000000000002,
-    "award": 0.014254888752227943,
-    "awardCoin": "ETH",
-    "awardUSD": 35.64
+    "award": 0.5939536980094977,
+    "awardCoin": "VETH",
+    "awardUSD": 30.89
   },
   {
     "contest": 5,
@@ -2035,9 +2023,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -2047,9 +2035,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -2059,9 +2047,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -2071,9 +2059,9 @@
     "pie": 2.43,
     "split": 3,
     "slice": 0.81,
-    "award": 0.06335506112101308,
-    "awardCoin": "ETH",
-    "awardUSD": 158.39
+    "award": 2.639794213375545,
+    "awardCoin": "VETH",
+    "awardUSD": 137.27
   },
   {
     "contest": 5,
@@ -2083,9 +2071,9 @@
     "pie": 2.7,
     "split": 2,
     "slice": 1.35,
-    "award": 0.10559176853502181,
-    "awardCoin": "ETH",
-    "awardUSD": 263.98
+    "award": 4.399657022292575,
+    "awardCoin": "VETH",
+    "awardUSD": 228.78
   },
   {
     "contest": 5,
@@ -2095,9 +2083,9 @@
     "pie": 2.1870000000000003,
     "split": 4,
     "slice": 0.5467500000000001,
-    "award": 0.042764666256683834,
-    "awardCoin": "ETH",
-    "awardUSD": 106.91
+    "award": 1.781861094028493,
+    "awardCoin": "VETH",
+    "awardUSD": 92.66
   },
   {
     "contest": 5,
@@ -2107,9 +2095,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -2119,9 +2106,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -2131,9 +2117,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -2143,9 +2129,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.063840517874281,
-    "awardCoin": "ETH",
-    "awardUSD": 159.6
+    "award": 0,
+    "awardCoin": "VETH",
+    "awardUSD": 0
   },
   {
     "contest": 5,
@@ -2155,9 +2141,9 @@
     "pie": 7.290000000000001,
     "split": 4,
     "slice": 1.8225000000000002,
-    "award": 0.14254888752227945,
-    "awardCoin": "ETH",
-    "awardUSD": 356.37
+    "award": 5.939536980094977,
+    "awardCoin": "VETH",
+    "awardUSD": 308.86
   },
   {
     "contest": 5,
@@ -2167,9 +2153,9 @@
     "pie": 10,
     "split": 1,
     "slice": 10,
-    "award": 0.7821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 1955.4
+    "award": 32.590052016982035,
+    "awardCoin": "VETH",
+    "awardUSD": 1694.68
   },
   {
     "contest": 5,
@@ -2179,9 +2165,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0.07821612484075688,
-    "awardCoin": "ETH",
-    "awardUSD": 195.54
+    "award": 3.2590052016982036,
+    "awardCoin": "VETH",
+    "awardUSD": 169.47
   },
   {
     "contest": 5,
@@ -2191,9 +2177,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -2203,9 +2189,8 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 0,
-    "awardCoin": "ETH",
-    "awardUSD": 0
+    "awardCoin": "VETH",
+    "awardUSD": null
   },
   {
     "contest": 5,
@@ -2215,9 +2200,9 @@
     "pie": 0.81,
     "split": 3,
     "slice": 0.27,
-    "award": 0.02111835370700436,
-    "awardCoin": "ETH",
-    "awardUSD": 52.8
+    "award": 0.879931404458515,
+    "awardCoin": "VETH",
+    "awardUSD": 45.76
   },
   {
     "contest": 5,
@@ -2227,9 +2212,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   },
   {
     "contest": 5,
@@ -2239,8 +2224,8 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 0.23464837452227064,
-    "awardCoin": "ETH",
-    "awardUSD": 586.62
+    "award": 9.77701560509461,
+    "awardCoin": "VETH",
+    "awardUSD": 508.4
   }
 ]

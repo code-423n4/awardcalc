@@ -1,6 +1,6 @@
 [
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "Jmukesh",
     "address": "0x70aF29f754988473fcAbA6E01AbfbafF871046d1",
     "risk": "0",
@@ -11,7 +11,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/12"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "Jmukesh",
     "address": "0x70aF29f754988473fcAbA6E01AbfbafF871046d1",
     "risk": "0",
@@ -22,7 +22,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/13"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "a_delamo",
     "address": "0x69e833869584D7e468751ED5e7d23ADAdCAA3D00",
     "risk": "g",
@@ -33,7 +33,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/18"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "a_delamo",
     "address": "0x69e833869584D7e468751ED5e7d23ADAdCAA3D00",
     "risk": "g",
@@ -44,7 +44,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/19"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "a_delamo",
     "address": "0x69e833869584D7e468751ED5e7d23ADAdCAA3D00",
     "risk": "1",
@@ -55,7 +55,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/20"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "cmichel",
     "address": "0x6823636c2462cfdcD8d33fE53fBCD0EdbE2752ad",
     "risk": "1",
@@ -66,7 +66,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/15"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "cmichel",
     "address": "0x6823636c2462cfdcD8d33fE53fBCD0EdbE2752ad",
     "risk": "2",
@@ -77,7 +77,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/16"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "gpersoon",
     "address": "gpersoon.eth",
     "risk": "1",
@@ -88,7 +88,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/10"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "gpersoon",
     "address": "gpersoon.eth",
     "risk": "1",
@@ -99,7 +99,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/7"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "gpersoon",
     "address": "gpersoon.eth",
     "risk": "0",
@@ -110,7 +110,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/8"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "paulius.eth",
     "address": "0x0c4243ca087F4e4738596F33292064e847DA80dA",
     "risk": "0",
@@ -121,7 +121,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/4"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "paulius.eth",
     "address": "0x0c4243ca087F4e4738596F33292064e847DA80dA",
     "risk": "0",
@@ -132,7 +132,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/5"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "paulius.eth",
     "address": "0x0c4243ca087F4e4738596F33292064e847DA80dA",
     "risk": "1",
@@ -143,7 +143,7 @@
     "issueUrl": "https://github.com/code-423n4/2021-05-88mph-findings/issues/6"
   },
   {
-    "contest": 8,
+    "contest": 9,
     "handle": "shw",
     "address": "0xB48B9694BeC446E3Bf54788f913174a6580a279F",
     "risk": "2",
