@@ -7,8 +7,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -90,8 +91,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -149,8 +151,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -172,8 +175,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -183,8 +187,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -194,8 +199,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -229,8 +235,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -240,8 +247,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -263,8 +271,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -286,8 +295,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -297,8 +307,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -308,8 +319,9 @@
     "pie": 0.9,
     "split": 2,
     "slice": 0.45,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -343,8 +355,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -354,8 +367,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -377,8 +391,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -388,8 +403,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,
@@ -423,8 +439,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
+    "award": 0,
     "awardCoin": "BLO",
-    "awardUSD": null
+    "awardUSD": 0
   },
   {
     "contest": 7,

@@ -8,7 +8,7 @@
     "split": 1,
     "slice": 1,
     "award": 0,
-    "awardCoin": "USDC",
+    "awardCoin": "MPH",
     "awardUSD": 0
   },
   {
@@ -20,7 +20,7 @@
     "split": 1,
     "slice": 1,
     "award": 0,
-    "awardCoin": "USDC",
+    "awardCoin": "MPH",
     "awardUSD": 0
   },
   {
@@ -32,7 +32,7 @@
     "split": 1,
     "slice": 1,
     "award": 0,
-    "awardCoin": "USDC",
+    "awardCoin": "MPH",
     "awardUSD": 0
   },
   {
@@ -44,7 +44,7 @@
     "split": 1,
     "slice": 1,
     "award": 0,
-    "awardCoin": "USDC",
+    "awardCoin": "MPH",
     "awardUSD": 0
   },
   {
@@ -55,9 +55,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 4090.909090909091,
-    "awardCoin": "USDC",
-    "awardUSD": 4090.91
+    "award": 6.2727272727272725,
+    "awardCoin": "MPH",
+    "awardUSD": 313.64
   },
   {
     "contest": 9,
@@ -67,9 +67,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 4090.909090909091,
-    "awardCoin": "USDC",
-    "awardUSD": 4090.91
+    "award": 6.2727272727272725,
+    "awardCoin": "MPH",
+    "awardUSD": 313.64
   },
   {
     "contest": 9,
@@ -79,9 +79,9 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 12272.727272727272,
-    "awardCoin": "USDC",
-    "awardUSD": 12272.73
+    "award": 18.818181818181817,
+    "awardCoin": "MPH",
+    "awardUSD": 940.91
   },
   {
     "contest": 9,
@@ -91,9 +91,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 4090.909090909091,
-    "awardCoin": "USDC",
-    "awardUSD": 4090.91
+    "award": 6.2727272727272725,
+    "awardCoin": "MPH",
+    "awardUSD": 313.64
   },
   {
     "contest": 9,
@@ -103,9 +103,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 4090.909090909091,
-    "awardCoin": "USDC",
-    "awardUSD": 4090.91
+    "award": 6.2727272727272725,
+    "awardCoin": "MPH",
+    "awardUSD": 313.64
   },
   {
     "contest": 9,
@@ -116,7 +116,7 @@
     "split": 1,
     "slice": 1,
     "award": 0,
-    "awardCoin": "USDC",
+    "awardCoin": "MPH",
     "awardUSD": 0
   },
   {
@@ -128,7 +128,7 @@
     "split": 1,
     "slice": 1,
     "award": 0,
-    "awardCoin": "USDC",
+    "awardCoin": "MPH",
     "awardUSD": 0
   },
   {
@@ -140,7 +140,7 @@
     "split": 1,
     "slice": 1,
     "award": 0,
-    "awardCoin": "USDC",
+    "awardCoin": "MPH",
     "awardUSD": 0
   },
   {
@@ -151,9 +151,9 @@
     "pie": 1,
     "split": 1,
     "slice": 1,
-    "award": 4090.909090909091,
-    "awardCoin": "USDC",
-    "awardUSD": 4090.91
+    "award": 6.2727272727272725,
+    "awardCoin": "MPH",
+    "awardUSD": 313.64
   },
   {
     "contest": 9,
@@ -163,8 +163,8 @@
     "pie": 3,
     "split": 1,
     "slice": 3,
-    "award": 12272.727272727272,
-    "awardCoin": "USDC",
-    "awardUSD": 12272.73
+    "award": 18.818181818181817,
+    "awardCoin": "MPH",
+    "awardUSD": 940.91
   }
 ]
