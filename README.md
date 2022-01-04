@@ -1,3 +1,5 @@
+# This has been deprecated in favor of the awardcalc action in the buttons repo.
+
 # awardcalc
 
 Rough script for calculating awards
